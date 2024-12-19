@@ -8,6 +8,7 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+    <a id="top"></a>
     <!-- Barre de navigation -->
     <nav class="navbar">
         <div class="logo">Mon CV</div>
@@ -18,7 +19,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="theme-toggle" onclick="toggleTheme()">
-            <img src="images/sun.png" alt="Mode Jour" id="theme-icon">
+            <img src="C:\GitLab et GitHub projects\sio1\sun.png" alt="Mode Jour" id="theme-icon">
         </div>
     </nav>
 
@@ -99,10 +100,37 @@
             <button type="submit">Envoyer</button>
         </form>
     </section>
+</body>
 
     <!-- Footer -->
     <footer>
+        <a href="#top" class="back-to-top">Haut de Page</a>
+        <title>Retour haut de page</title>
         <p>&copy; CV Erwan DEVILLE 2024</p>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                height: 2000px; /* Simule une page longue pour scroller */
+            }
+    
+            /* Style du bouton */
+            .back-to-top {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: #333;
+                color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+    
+            .back-to-top:hover {
+                background-color: #555;
+            }
+        </style>
     </footer>
-</body>
 </html>
