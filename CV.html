@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Erwan DEVILLE</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="logo">Mon CV</div>
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section d'accueil -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Erwan DEVILLE</h1>
+            <p>IT/OT Cybersecurity & Automation Trainee</p>
+            <a href="#contact" class="cta-button">Prenez contact avec moi !</a>
+        </div>
+    </section>
+
+    <!-- À propos de moi -->
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <p>Passionné d'informatique depuis tout petit, je me suis lancé dans ce vaste monde avec comme seule envie d'apprendre le plus possible.
+             Je suis motivé à me dépasser jour après jour, très autonome, je serai capable de m'adapter très vite à votre structure et vos IDE. 
+             Mon objectif professionnel serait d'évoluer plus tard pour être Leader IT/OT en Cybersécurité et Automatismes. 
+             Je sais manier quelques languages tels que Python, C#, Java Script, CSS ou encore HTML (avec lequel je suis le plus à l'aise).</p>
+    </section>
+
+    <!-- Compétences info -->
+    <section id="skills" class="section">
+        <h2>Compétences informatiques</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>C#</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 25%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>C++</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 20%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Compétences -->
+     <section id="skills" class="section">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>A l'écoute</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Curieux</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Patient</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Ponctuel</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expérience -->
+    <section id="experience" class="section">
+        <h2>Expérience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>IT/OT Trainee - Jacobs Douwe Egberts</h3>
+                    <span>août 2024 - Présent</span>
+                    <p>Intervenir sur les différents problèmes informatique de l'usine (Impression, machine défectueuse, baies informatique, brassage de câbles, etc...). 
+                        J'ai donc, au fur et à mesure du temps, développé des compétences sur les machines tels que Rychiger, Schubert, Zebra, NetPresenter, NIRS ou encore Cisco.
+                         Je me suis très vite adapté au rythme effréné de l'usine et je continue jour après jour à m'améliorer dans ce domaine et les différentes applications utilisées afin
+                        de mieux pouvoir répondre aux attentes de mes collègues.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Stage Mécanicien Auto - Gerlero Autos</h3>
+                    <span>octobre 2020</span>
+                    <p>Lors de mon stage de 3ème, j'ai eu l'occasion de faire 1 semaine dans la concession Gerlero. Là-bas, j'ai beaucoup appris sur ce domaine, 
+                        j'ai participé à plusieurs tâches du quotidien (vidance, changement de pneu, etc...) et j'ai aussi pas mal appris sur le travail en équipe car parfois 
+                        il faut être plusieurs pour accomplir le travail. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Mes contacts</h2>
+        <form class="contact-form">
+            <p>Mon e-mail : deville.erwan42@testsio.com</p>
+            <p>Mon numéro : +33 (0)6 12 34 56 78</p>
+            <h2>Vous souhaitez me contacter directement ?</h2>
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; CV Erwan DEVILLE 2024</p>
+    </footer>
+</body>
+</html>
